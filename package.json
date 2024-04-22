@@ -1,0 +1,21 @@
+{
+  "name": "ai-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot with AI feature",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm i -g pm2 && pm2 start index.js && pm2 save && pm2 monit"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "openai",
+    "simi"
+  ],
+  "author": "Miftah GanzZ",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "node-telegram-bot-api": "^0.56.0"
+  }
+}
