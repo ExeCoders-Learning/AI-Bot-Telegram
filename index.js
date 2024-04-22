@@ -228,7 +228,7 @@ bot.on('message', async (msg) => {
     }
   } else if (activeAiMode === 'gemini') {
     try {
-      const response = await axios.get(api + '/ai/gemini', {
+      const response = await axios.get(api + '/ai/gemini-ai', {
         params: {
           q: text
         },
